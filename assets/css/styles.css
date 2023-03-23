@@ -399,6 +399,7 @@
 {
     .section-two .inner-wrap .inner-image {
         width: 100%;
+        text-align: center;
     }
 
     .section-two .inner-wrap .inner-content {
