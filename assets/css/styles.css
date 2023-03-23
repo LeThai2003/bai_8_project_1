@@ -443,11 +443,11 @@
 {
     .section-two .box-list 
     {
-       justify-content: center;
+        flex-wrap: wrap;
     }
     .section-two .box-list .box
     {
-        margin-right: 30px;
+        margin-right: 5px;
     }
     .section-two .inner-wrap .inner-content .h1
     {
@@ -461,6 +461,10 @@
     .section-two .inner-wrap .inner-content p
     {
         font-size: 14px;
+    }
+    .section-two .box-list .box {
+        margin-left: auto;
+        margin-right: auto;
     }
     
 }
